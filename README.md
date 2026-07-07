@@ -43,19 +43,11 @@ AI-Interview-Agent/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-### 1. Clone the repository
+### 1. Download or clone the repository.
 
-```bash
-git clone https://github.com/YOUR_USERNAME/AI-Interview-Agent.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
-cd AI-Interview-Agent
-```
+### 2. Open a terminal in the project folder.
 
 ### 3. Install the required packages
 
