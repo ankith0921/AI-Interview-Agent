@@ -1,50 +1,167 @@
-# AI Interview Agent
+# 🤖 AI Interview Agent
 
-## Overview
-An AI-powered interview simulator that generates technical interview questions, evaluates candidate answers using Google's Gemini API, and produces a structured interview report.
+An AI-powered interview simulator built with **Streamlit** and **Google Gemini AI**. The application generates role-specific interview questions, evaluates candidate responses, provides detailed feedback with scores, and generates a downloadable interview report.
 
-## Features
-- Role-based interview questions
-- AI-powered answer evaluation
+---
+
+## 🚀 Features
+
+- Generate role-based technical interview questions
+- AI-powered evaluation of candidate answers
+- Detailed feedback for every response
 - Per-question scoring
 - Overall interview score
 - Hiring recommendation
-- JSON report generation
-- Downloadable interview report
-- Graceful API quota error handling
+- Downloadable JSON interview report
+- Graceful handling of Gemini API quota errors
+- Simple and interactive Streamlit interface
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
+
 - Python
 - Streamlit
 - Google Gemini API
 - python-dotenv
 
-## Installation
+---
 
+## 📂 Project Structure
+
+```
+AI-Interview-Agent/
+│── app.py
+│── interview.py
+│── evaluator.py
+│── prompts.py
+│── requirements.txt
+│── README.md
+│── .gitignore
+│── Screenshots/
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/AI-Interview-Agent.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd AI-Interview-Agent
+```
+
+### 3. Install the required packages
+
+```bash
 pip install -r requirements.txt
+```
 
-## Configure
+---
 
-Create a .env file:
+## 🔑 Gemini API Setup
 
-GEMINI_API_KEY=YOUR_API_KEY
+This project requires a **Google Gemini API Key**.
 
-## Run
+### Step 1
 
+Generate an API key from:
+
+https://aistudio.google.com/app/apikey
+
+### Step 2
+
+Create a file named **`.env`** in the **root folder** of the project (the same folder that contains `app.py`).
+
+Your project should look like this:
+
+```
+AI-Interview-Agent/
+│── app.py
+│── interview.py
+│── evaluator.py
+│── prompts.py
+│── .env
+```
+
+### Step 3
+
+Add the following line to the `.env` file:
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+Replace `YOUR_GEMINI_API_KEY` with the API key you generated from Google AI Studio.
+
+---
+
+## ▶️ Running the Application
+
+Start the Streamlit application:
+
+```bash
 streamlit run app.py
+```
 
-## Folder Structure
+The application will open automatically in your browser at:
 
-...
+```
+http://localhost:8501
+```
 
-## Limitations
+---
 
-This project uses the Google Gemini API.
-If the API quota is exceeded, the application displays an informative error message and no longer crashes.
+## 📸 Screenshots
 
-## Future Improvements
+The repository contains screenshots demonstrating:
 
-- Voice interview
-- Resume upload
-- PDF reports
+- Home Page
+- Role Selection
+- Interview Questions
+- AI Evaluation
+- Final Results
+
+---
+
+## 📄 Output
+
+After the interview, the application provides:
+
+- AI-generated evaluation for each answer
+- Individual question scores
+- Overall interview score
+- Hiring recommendation
+- Downloadable interview report in JSON format
+
+---
+
+## ⚠️ Limitations
+
+- Uses the Google Gemini API for question generation and evaluation.
+- An active internet connection is required.
+- If the Gemini API quota is exceeded, the application displays a user-friendly error message instead of crashing.
+- Currently supports text-based interviews only.
+
+---
+
+## 🔮 Future Improvements
+
+- Voice-based interview support
+- Resume upload and analysis
+- PDF interview reports
 - User authentication
+- Interview history dashboard
+- More configurable interview difficulty levels
+
+---
+
+## 👨‍💻 Author
+
+Developed as part of a **Junior AI Research Associate Take-Home Assessment**.
