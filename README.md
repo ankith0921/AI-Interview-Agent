@@ -154,6 +154,3 @@ After the interview, the application provides:
 
 ---
 
-## 👨‍💻 Author
-
-Developed as part of a **Junior AI Research Associate Take-Home Assessment**.
