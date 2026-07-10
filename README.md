@@ -1,10 +1,10 @@
-# 🤖 AI Interview Agent
+# AI Interview Agent
 
 An AI-powered interview simulator built with **Streamlit** and **Google Gemini AI**. The application generates role-specific interview questions, evaluates candidate responses, provides detailed feedback with scores, and generates a downloadable interview report.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Generate role-based technical interview questions
 - AI-powered evaluation of candidate answers
@@ -18,7 +18,7 @@ An AI-powered interview simulator built with **Streamlit** and **Google Gemini A
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Streamlit
@@ -27,7 +27,7 @@ An AI-powered interview simulator built with **Streamlit** and **Google Gemini A
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 AI-Interview-Agent/
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 Gemini API Setup
+## Gemini API Setup
 
 This project requires a **Google Gemini API Key**.
 
@@ -94,7 +94,7 @@ Replace `YOUR_GEMINI_API_KEY` with the API key you generated from Google AI Stud
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 Start the Streamlit application:
 
@@ -122,7 +122,7 @@ The repository contains screenshots demonstrating:
 
 ---
 
-## 📄 Output
+## Output
 
 After the interview, the application provides:
 
@@ -134,7 +134,7 @@ After the interview, the application provides:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Uses the Google Gemini API for question generation and evaluation.
 - An active internet connection is required.
@@ -143,7 +143,7 @@ After the interview, the application provides:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Voice-based interview support
 - Resume upload and analysis
