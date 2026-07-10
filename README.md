@@ -110,7 +110,7 @@ http://localhost:8501
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 The repository contains screenshots demonstrating:
 
