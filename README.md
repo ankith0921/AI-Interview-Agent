@@ -145,12 +145,35 @@ After the interview, the application provides:
 
 ## Future Improvements
 
-- Voice-based interview support
-- Resume upload and analysis
-- PDF interview reports
+- Voice interview
+- Resume upload
+- PDF reports
 - User authentication
-- Interview history dashboard
-- More configurable interview difficulty levels
+
+# About the Author
+
+## Ankith Kanthyappa Nataraj
+
+Computer Science Engineering Graduate with interests in:
+
+- Artificial Intelligence
+- Machine Learning
+- Natural Language Processing
+- Data Science
+- Software Engineering
+
+**GitHub**
+
+https://github.com/ankith0921
+
+**LinkedIn**
+
+https://www.linkedin.com/in/ankith-kn-9b7a6329b
 
 ---
 
+# License
+
+This project is licensed under the **MIT License**.
+
+See the `LICENSE` file for details.
